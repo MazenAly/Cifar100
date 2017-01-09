@@ -68,7 +68,7 @@ Tensorboard helped us visualize the architecture of the Neural Network.
 ##Results 
 We trained the network using CIFAR-100 and CIFAR-10 data sets in three configurations, the first configuration is without data preprocessing nor data augmentation. The second, is without augmentation only. The third is using data preprocessing and augmentation. 
 
-Cifar-100 reached 50% accuracy on the testing data while Cifar-10 82%
+Cifar-100 reached 50% accuracy on the testing data while Cifar-10 reached 82%
 
 
 ##References
