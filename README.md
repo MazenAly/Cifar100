@@ -68,7 +68,7 @@ Tensorboard helped us visualize the architecture of the Neural Network.
 ##Results 
 We trained the network using CIFAR-100 and CIFAR-10 data sets in three configurations, the first configuration is without data preprocessing nor data augmentation. The second, is without augmentation only. The third is using data preprocessing and augmentation. 
 
-We can see from the results that if we perform data augmentation and normalization we will have the best testing accuracy and the worst training accuracy. On the other hand, if we don’t do any augmentation or normalization, we will have the best training accuracy and the worst testing accuracy and this is due to the fact that we overfit the raw data as it can be used many times in different iterations, unlike the real-time changing nature of the training data due to augmentation.
+Cifar-100 reached 50% accuracy on the testing data while Cifar-10 82%
 
 
 ##References
@@ -85,6 +85,7 @@ We can see from the results that if we perform data augmentation and normalizati
 [6] Benjamin Graham, Spatially-sparse convolutional neural networks, Dept of Statistics, University of Warwick, CV4 7AL, UK, September 23, 2014.
 
 
+Authors: Arzam Muzaffar, Mazen Aly 
 
 
 
